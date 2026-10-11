@@ -1,0 +1,38 @@
+[
+  {
+    "id": "macro-restart-interval",
+    "name": "Interval Server Restart",
+    "description": "Automatically restart the server every X hours or minutes to prevent lag",
+    "type": "restart_interval",
+    "enabled": false,
+    "intervalMinutes": 300,
+    "lastRunTimestamp": null,
+    "nextRunTimestamp": null,
+    "runCount": 0
+  },
+  {
+    "id": "macro-restart-daily",
+    "name": "Daily Scheduled Restart",
+    "description": "Automatically restart the server everyday at a scheduled time",
+    "type": "restart_daily",
+    "enabled": false,
+    "dailyTime": "06:30",
+    "lastRunTimestamp": null,
+    "nextRunTimestamp": null,
+    "runCount": 0
+  },
+  {
+    "id": "macro-extend-interval",
+    "name": "Auto Add Timer (Stealth <= 1:00)",
+    "description": "Auto-click Add Timer only when countdown reaches 1:00 or below, randomized between 50s-58s (e.g. 58s or 56s)",
+    "type": "extend_interval",
+    "enabled": true,
+    "intervalMinutes": 4,
+    "targetMinSec": 52,
+    "targetMaxSec": 58,
+    "randomTriggerSec": 56,
+    "lastRunTimestamp": null,
+    "nextRunTimestamp": null,
+    "runCount": 0
+  }
+]

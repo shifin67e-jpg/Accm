@@ -1,0 +1,8 @@
+{
+  "name": "Acmn public",
+  "description": "Imported from GitHub: shifin67e-jpg/Acmn",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
